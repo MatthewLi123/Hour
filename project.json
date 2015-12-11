@@ -1,0 +1,10 @@
+{
+    "name": "Hour",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "Hour.xml",
+    "author": "MatthewLi123",
+    "minimum_firmware_version": 42
+}
