@@ -2,8 +2,8 @@
   <block type="controls_whileUntil" id="166" inline="false" x="-52" y="83">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="173">
-        <field name="OBJECT">ENTER</field>
+      <block type="sensor_spectrometer" id="195">
+        <field name="LIGHT">YELLOW</field>
       </block>
     </value>
     <statement name="DO">
