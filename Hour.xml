@@ -13,31 +13,28 @@
           </block>
         </value>
         <next>
-          <block type="movement_forward" id="5">
-            <next>
-              <block type="movement_leftmotor" id="101" inline="true">
-                <value name="MOVLEFT">
-                  <block type="math_number" id="118">
-                    <field name="NUM">2</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="movement_rightmotor" id="111" inline="true">
-                    <value name="MOVRIGHT">
-                      <block type="math_number" id="131">
-                        <field name="NUM">2</field>
-                      </block>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
+          <block type="movement_forward" id="5"></block>
         </next>
       </block>
     </statement>
     <next>
       <block type="movement_stop" id="6"></block>
+    </next>
+  </block>
+  <block type="movement_leftmotor" id="101" inline="true" x="347" y="436">
+    <value name="MOVLEFT">
+      <block type="math_number" id="118">
+        <field name="NUM">2</field>
+      </block>
+    </value>
+    <next>
+      <block type="movement_rightmotor" id="111" inline="true">
+        <value name="MOVRIGHT">
+          <block type="math_number" id="131">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+      </block>
     </next>
   </block>
 </xml>
