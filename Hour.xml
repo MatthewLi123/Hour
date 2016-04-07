@@ -1,11 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="195" inline="true" x="149" y="20">
-    <value name="TIMES">
-      <block type="math_number" id="202">
-        <field name="NUM">8</field>
-      </block>
-    </value>
-  </block>
   <block type="movement_setmotors" id="158" inline="true" x="377" y="112">
     <value name="BOTHMOVLEFT">
       <block type="math_number" id="177">
