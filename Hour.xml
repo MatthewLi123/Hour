@@ -1,39 +1,39 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="166" inline="false" x="-52" y="83">
+  <block type="controls_whileUntil" id="1" inline="false" x="19" y="153">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="239">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">UP</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_setmotors" id="159" inline="true">
+      <block type="movement_setmotors" id="3" inline="true">
         <value name="BOTHMOVLEFT">
-          <block type="math_number" id="180">
+          <block type="math_number" id="4">
             <field name="NUM">100</field>
           </block>
         </value>
         <value name="BOTHMOVRIGHT">
-          <block type="math_number" id="187">
+          <block type="math_number" id="5">
             <field name="NUM">100</field>
           </block>
         </value>
         <next>
-          <block type="robot_delay" id="3" inline="true">
+          <block type="robot_delay" id="6" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="4">
+              <block type="math_number" id="7">
                 <field name="NUM">100</field>
               </block>
             </value>
             <next>
-              <block type="movement_forward" id="5"></block>
+              <block type="movement_forward" id="8"></block>
             </next>
           </block>
         </next>
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="6"></block>
+      <block type="movement_stop" id="9"></block>
     </next>
   </block>
 </xml>
